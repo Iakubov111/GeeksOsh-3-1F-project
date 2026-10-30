@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    column-gap: 40px;
+}
+
+/* ///// START HEADER /////*/
+.header {
+    background-color: #4A2B33;
+}
+
+.header-container {
+    padding: 22.5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    column-gap: 20px;
+}
+
+.header-link {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 24px;
+    color: #D27487;
+    text-decoration: none;
+}
+
+.header-logo {
+    width: 276px;
+    height: 32px;
+}
+
+.header-sm {
+    display: flex;
+    column-gap: 16px;
+}
+
+.header-sm-link {
+    height: 24px;
+    width: 24px;
+}
+
+/* ///// END HEADER /////*/
+/* ///// START INTRO /////*/
+.intro {
+    background-color: #4A2B33;
+    margin-bottom: 36px;
+}
+
+.intro-img {
+    width: 100%;
+}
+
+/* ///// END INTRO /////*/
+/* ///// START ABOUT /////*/
+.about-container {
+    width: 68.18%;
+    padding: 220px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 3px;
+}
+
+.about-title {
+    font-family: Azeret Mono;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 17px;
+    line-height: 21.6px;
+    text-align: center;
+    color: #222222;
+}
+
+.about-text {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 44.8px;
+    text-align: center;
+    color: #222222;
+}
+
+.about-text span {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 32px;
+    line-height: 44.8px;
+    text-align: center;
+    color: #222222;
+}
+
+/* ///// END ABOUT /////*/
+/* ///// START MENU /////*/
+.menu {
+    background-color: #E9E9E3;
+    padding: 120px 0;
+}
+
+.menu-title {
+    font-family: Azeret Mono;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 21.6px;
+    color: #6F6F64;
+    margin-bottom: 17px;
+}
+
+.menu-text {
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 44.8px;
+    color: #6F6F64;
+    margin-bottom: 63px;
+}
+
+.menu-btn {
+    width: 100%;
+    padding: 17px 219px;
+    border: 2px solid #6F6F64;
+    margin-bottom: 12px;
+    background-color: transparent;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #6F6F64;
+}
+
+.btn-gray {
+    background-color: #6F6F64;
+    color: #FFFFFF;
+}
+
+.menu-btn:hover {
+    background-color: #6F6F64;
+    color: #FFFFFF;
+    transition: 1s all;
+}
+
+.btn-gray:hover {
+    background-color: transparent;
+    color: #6F6F64;
+    transition: 1s all;
+}
+
+.menu-img{
+    width: 100%;
+}
+/* ///// END MENU /////*/
